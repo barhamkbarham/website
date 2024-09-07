@@ -30,6 +30,15 @@
                 padding: 40px;
                 width: 40%;
             }
+            img {
+                width: 100px;
+                border-radius: 100%;
+            }
+            .info {
+                display: flex;
+                gap: 20px;
+                margin-bottom: 2rem;
+            }
             a {
                 color: #4b5563;
                 margin-right: 10px;
@@ -40,7 +49,7 @@
             h1 {
                 font-size: 40px;
                 font-weight: 500;
-                line-height: 1.1;
+                line-height: 1;
             }
             h2 {
                 font-size: 32px;
@@ -49,7 +58,7 @@
             p {
                 margin-top: 0.7em;
             }
-            .social {
+            .contact {
                 margin-top: 2em;
             }
             @media only screen and (max-width: 735px) {
@@ -69,8 +78,13 @@
     </head>
     <body>
         <main>
-            <h1>Barham K. Barham</h1>
-            <h2>Programmer</h2>
+            <div class="info">
+                <img src="barham.jpeg">
+                <div>
+                    <h1>Barham K. Barham</h1>
+                    <h2>Programmer</h2>
+                </div>
+            </div>
             <p>
             I enjoy exploring and learning about technology, programming, and any
             related fields.
@@ -79,7 +93,7 @@
             When it comes to my free-time, I enjoy reading, playing video games, and
             watching a movie or a TV show.
             </p>
-            <div class="social">
+            <div class="contact">
                 <a href="mailto:hello@barham.me" title="Say Hello!"><svg xmlns="http://www.w3.org/2000/svg" width="28"  height="28" viewBox="0 0 512 512" fill="currentColor"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg></a>
                 <a href="https://x.com/barhamkbarham" target="_blank" title="Follow me on X (Twitter)"
                 ><svg xmlns="http://www.w3.org/2000/svg" width="28"  height="28" viewBox="0 0 512 512" fill="currentColor"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg></a
